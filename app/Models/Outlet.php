@@ -1,5 +1,5 @@
 <?php
-git push origin main
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -15,7 +15,6 @@ class Outlet extends Model
     {
         return $this->hasMany(Menu::class);
     }
-
 
     public function orders()
     {
